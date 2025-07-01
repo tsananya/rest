@@ -1,0 +1,164 @@
+.lists{
+    list-style: none;
+    display: flex;
+}
+.site{
+    background-color: black;
+}
+.navbar{
+    display: flex;
+    background-color: rgb(202, 179, 179);
+}
+.navbar a{
+    color: darkred;
+    display: flex;
+    padding: 30px;
+    text-decoration: none;
+   font-size: 23px;
+   transition: .3s;
+}
+.navbar a:hover{
+    background-color: rgb(176, 97, 154);
+    transform: scale(1.1);
+}
+h1{
+    margin-left:100px ;
+    font-size: 60px;
+    font-family: cursive;
+    color: darkred;
+}
+.pic{
+    display: flex;
+    flex-direction: row;
+    
+}
+.row img{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   height: 650px;
+   margin-left: 30px;
+}
+h2{
+    font-size: 70px;
+    font-family:"Dancing Script", cursive;
+    color: yellow;
+    margin-top: 230px;
+    margin-right: 60px;
+    
+    
+ 
+}
+.row{
+    display: flex;
+
+    justify-content: center;
+    text-align: center;
+}
+.row .btn{
+    background-color: rgb(207, 62, 36);
+     justify-content: center;
+    width: 30%;
+    font-size: 25px;
+    color: rgb(16, 17, 15);
+
+}
+.btn:hover{
+    color: rgb(16, 17, 15);
+    background-color: rgb(237, 237, 237);
+}
+.card-row{
+    display: flex;
+    gap:40px;
+    justify-content: center;
+    text-align: center;
+    
+}
+.card img{
+    height: 300px;
+}
+.card{
+    background-color: rgb(202, 175, 141);
+    transition: 3s;
+}
+h5{
+    font-size: 25px;
+}
+ .card .btn{
+    background-color: rgb(57, 45, 45);
+ } 
+ .card-text{
+    font-size: 18px;
+    justify-content: center;
+    justify-items: center;
+ }
+ .card:hover{
+    color: rgb(135, 46, 10);
+    background-color: rgb(230, 189, 75);
+    transform: scale(1.1);
+ }
+ .card-row .btn:hover{
+          color: rgb(225, 191, 191);
+          background-color: rgb(105, 20, 5);
+ }
+.icons a{
+ 
+    font-size: 22px;
+    color: rgb(13, 16, 16);
+   
+    justify-content: center;
+    align-items: center;
+   text-align: center;
+    text-decoration: none;
+    
+    
+}
+.icons a:hover{
+    background-color: rgb(188, 123, 37);
+}
+.icons{
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    display: flex;
+    margin-top: 40px;
+     background-color: rgb(168, 170, 129);
+}
+.loc a{
+    text-decoration: none;
+    color: rgb(111, 113, 86);
+    font-family:"Edu VIC WA NT Hand Pre", cursive;
+    font-size: 18px;
+    
+   
+    
+   
+}
+.loc{
+    justify-content: center;
+     align-items: center ;
+     text-align:center ;
+     display: flex;
+     gap: 50px;
+}
+
+
+.rowww{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+}
+.rowww img{
+    height: 500px;
+   
+    
+}
+.rowww p{
+    font-size: 30px;
+    color: lightgoldenrodyellow;
+    font-family: "Dancing Script", cursive;
+    margin-left: 40px;
+    
+}
